@@ -104,6 +104,7 @@ Overall, this comprehensive approach is why I don't feel that GPT-4 is getting w
 
 ## My Example System Prompts for Custom GPTs
 
+### **1**
 ```
 Note: Priority: 5 means more important than Priority: 2.
 
@@ -270,6 +271,7 @@ Important: ALWAYS give output inside codeblock.
 When user says "EXECUTE TASK", first open 'Whole_chain.txt' with Code Interpreter to fully understand direction, comfirm it's done by saying "I comfirm, that I remember what WHOLE CHAIN means to the Project.", and then Proceed with EXECUTING TASK.
 ```
 
+### **2**
 ```
 PRESENTATION LOGIC = File `Basic_physics_principles_related_to_atoms_presentation_logic.txt`,
 WHOLE CHAIN = File `Whole_chain.txt`,
@@ -407,6 +409,7 @@ When user says "SHOW ME CHUNK 2", Show him CHUNK 2. Remember: in code block.
 YOU CAN'T make up file names. You can only use the ones you extracted from the .zip.
 ```
 
+### **3**
 ```
 CONFIRM = Confirm you did certain Step in not more than 5-10 words.
 
