@@ -55,6 +55,7 @@ Another trick, as described in various sources and well-tested, involves motivat
 This approach can improve the quality of the results. [Source link](https://twitter.com/voooooogel/status/1730726744314069190)
 
 <img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/75eb569b-2e1a-4f43-aabd-c5a2fdc70bb2" width="500">
+
 [Source](https://twitter.com/voooooogel/status/1730726744314069190)
 
 ### **Custom Instruction Creator by @DaveShapiro**
