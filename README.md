@@ -14,10 +14,10 @@ Contrary to this, I not only manage to consistently direct it to access the Know
 <img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/e732d086-99bf-4ba2-9dc8-58e51336a310" width="500">
 
 #### **Conclusion**: 
-Knowing how to prompt effectively turns you into a real expert in this field because you can simply achieve more.
+`Knowing how to prompt effectively turns you into a real expert in this field because you can simply achieve more.`
 
 #### **Disclaimer**: 
-This is not to discredit those who haven't mastered this control. It's just that, as in many areas of life, there's always room for improvement, and here I want to show what can be done better.
+`This is not to discredit those who haven't mastered this control. It's just that, as in many areas of life, there's always room for improvement, and here I want to show what can be done better.`
 
 ### **Getting Down to Business**
 Skip using the "Builder" function, and write prompts in your own style.
@@ -50,7 +50,9 @@ Another important aspect is the use of assertive language. Experiments have show
 For instance, expressing frustration can prompt the model to put in extra effort to alleviate that frustration, thus overcoming its 'laziness'.
 
 ### **Tipping**
-Another trick, as described in various sources and well-tested, involves motivating the model with a hypothetical reward. For example, writing something like, "don't be lazy, and if you do well, I'll tip you not 5 or 10 dollars, but 200 dollars. Do we have a deal?" This approach can improve the quality of the results. [Source link](https://twitter.com/voooooogel/status/1730726744314069190)
+Another trick, as described in various sources and well-tested, involves motivating the model with a hypothetical reward. For example, writing something like, 
+`don't be lazy, and if you do well, I'll tip you not 5 or 10 dollars, but 200 dollars. Do we have a deal?` 
+This approach can improve the quality of the results. [Source link](https://twitter.com/voooooogel/status/1730726744314069190)
 
 <img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/75eb569b-2e1a-4f43-aabd-c5a2fdc70bb2" width="500">
 [Source](https://twitter.com/voooooogel/status/1730726744314069190)
