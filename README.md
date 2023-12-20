@@ -9,7 +9,7 @@ I encountered a scenario where a prominent YouTuber complained that Custom GPT w
 
 Contrary to this, I not only manage to consistently direct it to access the Knowledge Base - sometimes multiple times in a single action - but I also don't feel that it's getting worse. It may be a bit more laid-back, which means we need to interact with it differently and apply more pressure, but it's certainly not deteriorating in quality.
 
-[screenshot comparison: theirs vs. mine]
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/e732d086-99bf-4ba2-9dc8-58e51336a310" width="500">
 
 ### Conclusion: 
 Knowing how to prompt effectively turns you into a real expert in this field because you can simply achieve more.
