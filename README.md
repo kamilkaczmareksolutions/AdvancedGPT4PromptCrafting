@@ -36,23 +36,23 @@ However, this approach has a drawback: if we emphasize and repeat, we're just us
 Since we'll be repeating to increase our chances of getting what we want but also need to save on character count, we can start using something akin to programming variables.
 How do we do this? 
 
-<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/0138fd2a-3784-45e2-a49f-a1984de70fc0" width="500"
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/0138fd2a-3784-45e2-a49f-a1984de70fc0" width="500">
 
 #### **Example:** 
 I relentlessly remind the model to use a specific .txt file, mentioning it repeatedly in different parts of the prompt. Instead of rewriting the .txt file's name each time, I define a variable at the top of the prompt, such as WHOLE CHAIN = {here goes the .txt filename}.
 Then, throughout the prompt construction, I use this WHOLE CHAIN variable. It not only saves characters but also eliminates the need to repeatedly write out the long filename, which is especially handy in Custom GPT scenarios involving frequent Knowledge Base modifications.
 This approach simplifies the process; you only need to change the file name in the variable once, replace the file in the Knowledge Base, and everything works seamlessly.
 
-<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/7a7b64a8-f087-4482-9ce2-2b94ffda5362" width="500"
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/7a7b64a8-f087-4482-9ce2-2b94ffda5362" width="500">
 
 ### **Assertive Language**
-Another important aspect is the use of assertive language. Experiments have shown that LLMs (large language models) can be 'emotionally manipulated' or persuaded using assertive language. [Source summary](https://aimodels.substack.com/p/telling-gpt-4-youre-scared-or-under), [Paper](https://arxiv.org/pdf/2307.11760.pdf)
+Another important aspect is the use of assertive language. Experiments have shown that LLMs (large language models) can be 'emotionally manipulated' or persuaded using assertive language. [Source summary](https://aimodels.substack.com/p/telling-gpt-4-youre-scared-or-under), [full paper](https://arxiv.org/pdf/2307.11760.pdf)
 For instance, expressing frustration can prompt the model to put in extra effort to alleviate that frustration, thus overcoming its 'laziness'.
 
 ### **Tipping**
 Another trick, as described in various sources and well-tested, involves motivating the model with a hypothetical reward. For example, writing something like, "don't be lazy, and if you do well, I'll tip you not 5 or 10 dollars, but 200 dollars. Do we have a deal?" This approach can improve the quality of the results. [Source link](https://twitter.com/voooooogel/status/1730726744314069190)
 
-<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/75eb569b-2e1a-4f43-aabd-c5a2fdc70bb2" width="500"
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/75eb569b-2e1a-4f43-aabd-c5a2fdc70bb2" width="500">
 [Source](https://twitter.com/voooooogel/status/1730726744314069190)
 
 ### **Custom Instruction Creator by @DaveShapiro**
