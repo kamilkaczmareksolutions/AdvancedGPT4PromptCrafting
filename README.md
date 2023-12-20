@@ -73,7 +73,7 @@ Once you have this skeleton and start creating the actual custom prompt, you can
 ### **Confirmation Step**
 Then, you can specify that after each step performed by the custom GPT in a query, it should `confirm` the action in 5-10 words. This ensures it doesn't skip steps and completes each task as required.
 
-[screenshot]
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/1d0d03dd-4c8c-42f7-93c6-cbc5c1dc9074" width="500">
 
 ### **Including Specific Functions**
 If the Code Interpreter successfully performs an action during testing in development mode, note the `function` it used. If it's successful, expand on it, see which `function` it used, and then include that specific `function` in your system prompt.
