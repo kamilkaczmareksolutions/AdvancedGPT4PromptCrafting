@@ -25,12 +25,12 @@ Skip using the "Builder" function, and write prompts in your own style.
 <img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/ebac951f-ba1d-46ed-9c3b-468cda732ca4" width="500">
 
 ### **Repetition**
-A fundamental observation is the need for extensive repetition of key elements in the prompts. This is almost to the point of excess. Various experiments have shown that the model often focuses on the beginning and end of inputs while sometimes neglecting the middle. This is where it tends to be 'lazy'. [source link]
+A fundamental observation is the need for extensive repetition of key elements in the prompts. This is almost to the point of excess. Various experiments have shown that the model often focuses on the beginning and end of inputs while sometimes neglecting the middle. This is where it tends to be 'lazy'. [source link](https://arxiv.org/abs/2307.03172)
 Therefore, repeating crucial elements increases the likelihood that the model will perform the desired actions and not overlook anything.
 
 However, this approach has a drawback: if we emphasize and repeat, we're just using more characters to convey our intentions, and the character count is limited. In Custom Instructions within the GPT Chat interface, it's 1500 characters, and in Custom GPT, it's 8000 characters.
 
-[screenshots]
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/4b08bfbc-049f-4087-8775-5d4936a5b2d2" width="500">
 
 ### **Using Variables**
 Since we'll be repeating to increase our chances of getting what we want but also need to save on character count, we can start using something akin to programming variables.
