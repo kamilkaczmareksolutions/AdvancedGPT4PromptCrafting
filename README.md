@@ -1,20 +1,20 @@
-### Pre-Intro
+# Pre-Intro
 Many people believe that as time goes on, GPT-4 becomes less effective. I, on the other hand, think it's becoming more laid-back. Here's what you can do about it.
 
-### Introduction
+# Introduction
 In this section, I aim to share the prompts and strategies I use to maximize the potential of this model. There will be sources cited and examples illustrated through screenshots.
 
-# Why this introduction? 
+### Why this introduction? 
 I encountered a scenario where a prominent YouTuber complained that Custom GPT wasn't integrating well with their Knowledge Base and wasn't performing as expected. They lamented that GPT-4's effectiveness deteriorates over time.
 
 Contrary to this, I not only manage to consistently direct it to access the Knowledge Base - sometimes multiple times in a single action - but I also don't feel that it's getting worse. It may be a bit more laid-back, which means we need to interact with it differently and apply more pressure, but it's certainly not deteriorating in quality.
 
 [screenshot comparison: theirs vs. mine]
 
-# Conclusion: 
+### Conclusion: 
 Knowing how to prompt effectively turns you into a real expert in this field because you can simply achieve more.
 
-# Disclaimer: 
+### Disclaimer: 
 This is not to discredit those who haven't mastered this control. It's just that, as in many areas of life, there's always room for improvement, and here I want to show what can be done better.
 
 ## Getting Down to Business
@@ -36,7 +36,7 @@ How do we do this?
 
 [screenshot]
 
-# Example: 
+### Example: 
 I relentlessly remind the model to use a specific .txt file, mentioning it repeatedly in different parts of the prompt. Instead of rewriting the .txt file's name each time, I define a variable at the top of the prompt, such as SAINT FILE = {here goes the .txt filename}.
 Then, throughout the prompt construction, I use this SAINT FILE variable. It not only saves characters but also eliminates the need to repeatedly write out the long filename, which is especially handy in Custom GPT scenarios involving frequent Knowledge Base modifications.
 This approach simplifies the process; you only need to change the file name in the variable once, replace the file in the Knowledge Base, and everything works seamlessly.
@@ -81,7 +81,7 @@ Similarly, you can specify exactly how the output should be structured, detailin
 
 [screenshot]
 
-### To Wrap It Up
+# To Wrap It Up
 This is why I talked about using variables at the top and saving characters. These are the places where you need to insert functions, specify output structure, etc., and this is where the character count becomes crucial.
 Always try to reduce instructions to a formula or variable and place it at the top to save characters.
 
@@ -91,12 +91,12 @@ Finally, as mentioned earlier, we shouldn't leave decisions to the model like "o
 
 No. We clearly define: "In this place, use the Web Browsing Tool (Bing), here use the Code Interpreter, here unzip a packed file in your Knowledge Base," etc. We precisely define each step.
 
-### Final Words
+# Final Words
 Crafting a good system prompt is akin to writing a program, with variables, functions, and tricks like 'confirm,' which serve as a form of console printing or debugging.
 
 Overall, this comprehensive approach is why I don't feel that GPT-4 is getting worse. By tightening the screws and maintaining significant control over what the model does for me, the above methods are ways to tighten these screws and maintain control. That's all, thanks, bye.
 
-### My Example System Prompts
+# My Example System Prompts
 
 [screenshot example 1]
 
