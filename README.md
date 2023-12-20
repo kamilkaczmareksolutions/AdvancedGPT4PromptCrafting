@@ -58,29 +58,29 @@ This approach can improve the quality of the results. [Source link](https://twit
 
 [Source](https://twitter.com/voooooogel/status/1730726744314069190)
 
-### **Custom Instruction Creator by @DaveShapiro**
-When crafting Custom Instructions for the interface or system prompt for Custom GPT or API calls, it's beneficial to use a prompt creator that turns a user's draft into a system prompt. I learned this trick from @DaveShapiro and often use it to create a framework.
+### **Custom Instruction Creator by [daveshap](https://github.com/daveshap/ChatGPT_Custom_Instructions)
+When crafting Custom Instructions for the interface or system prompt for Custom GPT or API calls, it's beneficial to use a prompt creator that turns a user's draft into a system prompt. I learned this trick from [daveshap](https://github.com/daveshap) and often use it to create a framework.
 
-[screenshot]
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/f6358215-b81a-4f7b-ae0b-badde7a42d1d" width="500">
 
-**With this framework, you can:**
-1. Place variables at the top,
-2. Add various reminders like "this is crucial," "that's absolutely important to notice that [...]," etc.
+**After do things with this framework, you can:**
+1. Place `variables` at the top,
+2. Add various reminders like `this is crucial`, `that's absolutely important to notice that [...]`, etc.
 
 ### **Specifying Specific Tools**
 Once you have this skeleton and start creating the actual custom prompt, you can request specific functionalities. For example, "I want to see the Code Interpreter running".
 
 ### **Confirmation Step**
-Then, you can specify that after each step performed by the custom GPT in a query, it should confirm the action in 5-10 words. This ensures it doesn't skip steps and completes each task as required.
+Then, you can specify that after each step performed by the custom GPT in a query, it should `confirm` the action in 5-10 words. This ensures it doesn't skip steps and completes each task as required.
 
 [screenshot]
 
 ### **Including Specific Functions**
-If the Code Interpreter successfully performs an action during testing in development mode, note the function it used. If it's successful, expand on it, see which function it used, and then include that specific function in your system prompt.
+If the Code Interpreter successfully performs an action during testing in development mode, note the `function` it used. If it's successful, expand on it, see which `function` it used, and then include that specific `function` in your system prompt.
 
 [screenshots]
 
-This way, if you've figured out a successful approach through testing, you don't need to leave the model to guess. You can specifically direct it: "In this particular instance, use this function." Including this in your system prompt is another way to gain control.
+This way, if you've figured out a successful approach through testing, you don't need to leave the model to guess. You can specifically direct it: `In this particular instance, use this function.` Including this in your system prompt is another way to gain control.
 
 ### **Structuring the Output**
 Similarly, you can specify exactly how the output should be structured, detailing its exact format.
@@ -88,17 +88,17 @@ Similarly, you can specify exactly how the output should be structured, detailin
 [screenshot]
 
 ## To Wrap It Up
-This is why I talked about using variables at the top and saving characters. These are the places where you need to insert functions, specify output structure, etc., and this is where the character count becomes crucial.
-Always try to reduce instructions to a formula or variable and place it at the top to save characters.
+This is why I talked about using `variables` at the top and saving characters. These are the places where you need to insert `functions`, specify `output structure`, etc., and this is where the character count becomes crucial.
+Always try to reduce instructions to a formula or `variable` and place it at the top to save characters.
 
 [screenshot]
 
 Finally, as mentioned earlier, we shouldn't leave decisions to the model like "okay, I might use this or that," leaving it unsure.
 
-No. We clearly define: "In this place, use the Web Browsing Tool (Bing), here use the Code Interpreter, here unzip a packed file in your Knowledge Base," etc. We precisely define each step.
+No. We clearly define: `In this place, use the Web Browsing Tool (Bing), here use the Code Interpreter, here unzip a packed file in your Knowledge Base`, etc. We precisely define each step.
 
 ## Final Words
-Crafting a good system prompt is akin to writing a program, with variables, functions, and tricks like 'confirm,' which serve as a form of console printing or debugging.
+Crafting a good system prompt is akin to writing a program, with `variables`, `functions`, and tricks like `confirm`, which serve as a form of console printing or debugging.
 
 Overall, this comprehensive approach is why I don't feel that GPT-4 is getting worse. By tightening the screws and maintaining significant control over what the model does for me, the above methods are ways to tighten these screws and maintain control. That's all, thanks, bye.
 
