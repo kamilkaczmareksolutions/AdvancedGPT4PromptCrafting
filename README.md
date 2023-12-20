@@ -25,7 +25,7 @@ Skip using the "Builder" function, and write prompts in your own style.
 <img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/ebac951f-ba1d-46ed-9c3b-468cda732ca4" width="500">
 
 ### **Repetition**
-A fundamental observation is the need for extensive repetition of key elements in the prompts. This is almost to the point of excess. Various experiments have shown that the model often focuses on the beginning and end of inputs while sometimes neglecting the middle. This is where it tends to be 'lazy'. [source link](https://arxiv.org/abs/2307.03172)
+A fundamental observation is the need for extensive repetition of key elements in the prompts. This is almost to the point of excess. Various experiments have shown that the model often focuses on the beginning and end of inputs while sometimes neglecting the middle. This is where it tends to be 'lazy'. [Source link](https://arxiv.org/abs/2307.03172)
 Therefore, repeating crucial elements increases the likelihood that the model will perform the desired actions and not overlook anything.
 
 However, this approach has a drawback: if we emphasize and repeat, we're just using more characters to convey our intentions, and the character count is limited. In Custom Instructions within the GPT Chat interface, it's 1500 characters, and in Custom GPT, it's 8000 characters.
@@ -36,23 +36,24 @@ However, this approach has a drawback: if we emphasize and repeat, we're just us
 Since we'll be repeating to increase our chances of getting what we want but also need to save on character count, we can start using something akin to programming variables.
 How do we do this? 
 
-[screenshot]
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/0138fd2a-3784-45e2-a49f-a1984de70fc0" width="500"
 
 #### **Example:** 
-I relentlessly remind the model to use a specific .txt file, mentioning it repeatedly in different parts of the prompt. Instead of rewriting the .txt file's name each time, I define a variable at the top of the prompt, such as SAINT FILE = {here goes the .txt filename}.
-Then, throughout the prompt construction, I use this SAINT FILE variable. It not only saves characters but also eliminates the need to repeatedly write out the long filename, which is especially handy in Custom GPT scenarios involving frequent Knowledge Base modifications.
+I relentlessly remind the model to use a specific .txt file, mentioning it repeatedly in different parts of the prompt. Instead of rewriting the .txt file's name each time, I define a variable at the top of the prompt, such as WHOLE CHAIN = {here goes the .txt filename}.
+Then, throughout the prompt construction, I use this WHOLE CHAIN variable. It not only saves characters but also eliminates the need to repeatedly write out the long filename, which is especially handy in Custom GPT scenarios involving frequent Knowledge Base modifications.
 This approach simplifies the process; you only need to change the file name in the variable once, replace the file in the Knowledge Base, and everything works seamlessly.
 
-[screenshots]
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/7a7b64a8-f087-4482-9ce2-2b94ffda5362" width="500"
 
 ### **Assertive Language**
-Another important aspect is the use of assertive language. Experiments have shown that LLMs (large language models) can be 'emotionally manipulated' or persuaded using assertive language. [source link]
+Another important aspect is the use of assertive language. Experiments have shown that LLMs (large language models) can be 'emotionally manipulated' or persuaded using assertive language. [Source summary](https://aimodels.substack.com/p/telling-gpt-4-youre-scared-or-under), [Paper](https://arxiv.org/pdf/2307.11760.pdf)
 For instance, expressing frustration can prompt the model to put in extra effort to alleviate that frustration, thus overcoming its 'laziness'.
 
-[screenshot]
-
 ### **Tipping**
-Another trick, as described in various sources and well-tested, involves motivating the model with a hypothetical reward. For example, writing something like, "don't be lazy, and if you do well, I'll tip you not 5 or 10 dollars, but 200 dollars. Do we have a deal?" This approach can improve the quality of the results. [source link]
+Another trick, as described in various sources and well-tested, involves motivating the model with a hypothetical reward. For example, writing something like, "don't be lazy, and if you do well, I'll tip you not 5 or 10 dollars, but 200 dollars. Do we have a deal?" This approach can improve the quality of the results. [Source link](https://twitter.com/voooooogel/status/1730726744314069190)
+
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/75eb569b-2e1a-4f43-aabd-c5a2fdc70bb2" width="500"
+[Source](https://twitter.com/voooooogel/status/1730726744314069190)
 
 ### **Custom Instruction Creator by @DaveShapiro**
 When crafting Custom Instructions for the interface or system prompt for Custom GPT or API calls, it's beneficial to use a prompt creator that turns a user's draft into a system prompt. I learned this trick from @DaveShapiro and often use it to create a framework.
