@@ -68,7 +68,7 @@ When crafting Custom Instructions for the interface or system prompt for Custom 
 2. Add various reminders like `this is crucial`, `that's absolutely important to notice that [...]`, etc.
 
 ### **Specifying Specific Tools**
-Once you have this skeleton and start creating the actual custom prompt, you can request specific functionalities. For example, "I want to see the Code Interpreter running".
+Once you have this skeleton and start creating the actual custom prompt, you can request specific functionalities. For example, `I want to see the Code Interpreter running`.
 
 ### **Confirmation Step**
 Then, you can specify that after each step performed by the custom GPT in a query, it should `confirm` the action in 5-10 words. This ensures it doesn't skip steps and completes each task as required.
