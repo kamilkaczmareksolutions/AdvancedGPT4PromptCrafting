@@ -78,14 +78,14 @@ Then, you can specify that after each step performed by the custom GPT in a quer
 ### **Including Specific Functions**
 If the Code Interpreter successfully performs an action during testing in development mode, note the `function` it used. If it's successful, expand on it, see which `function` it used, and then include that specific `function` in your system prompt.
 
-[screenshots]
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/d5b1bd78-20b3-4cd5-9d3c-603d2fe000b4" width="500">
 
 This way, if you've figured out a successful approach through testing, you don't need to leave the model to guess. You can specifically direct it: `In this particular instance, use this function.` Including this in your system prompt is another way to gain control.
 
 ### **Structuring the Output**
 Similarly, you can specify exactly how the output should be structured, detailing its exact format.
 
-[screenshot]
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/a7660e53-951c-412a-b537-b8dca16fd581" width="500">
 
 ## To Wrap It Up
 This is why I talked about using `variables` at the top and saving characters. These are the places where you need to insert `functions`, specify `output structure`, etc., and this is where the character count becomes crucial.
