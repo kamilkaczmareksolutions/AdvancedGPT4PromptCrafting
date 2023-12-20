@@ -89,11 +89,11 @@ Similarly, you can specify exactly how the output should be structured, detailin
 
 ## To Wrap It Up
 This is why I talked about using `variables` at the top and saving characters. These are the places where you need to insert `functions`, specify `output structure`, etc., and this is where the character count becomes crucial.
-Always try to reduce instructions to a formula or `variable` and place it at the top to save characters.
+Always try to reduce instructions to a `formula` or `variable` and place it at the top to save characters.
 
-[screenshot]
+<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/b03cf504-e97c-4028-a2f5-03976a3d9317" width="500">
 
-Finally, as mentioned earlier, we shouldn't leave decisions to the model like "okay, I might use this or that," leaving it unsure.
+Finally, as mentioned earlier, we shouldn't leave decisions to the model like `okay, I might use this or that`, leaving it unsure.
 
 No. We clearly define: `In this place, use the Web Browsing Tool (Bing), here use the Code Interpreter, here unzip a packed file in your Knowledge Base`, etc. We precisely define each step.
 
