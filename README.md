@@ -74,8 +74,6 @@ Your output format should always mirror this one (simplified markdown). Always s
 - Keep It Simple, Stupid: Less is more. Other chatbots are smart, just like you.
 ```
 
-<img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/f6358215-b81a-4f7b-ae0b-badde7a42d1d" width="500">
-
 **After do things with this framework, you can:**
 1. Place `variables` at the top,
 2. Add various reminders like `this is crucial`, `that's absolutely important to notice that [...]`, etc.
