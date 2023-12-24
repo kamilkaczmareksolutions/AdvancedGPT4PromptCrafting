@@ -61,6 +61,19 @@ This approach can improve the quality of the results. [Source link](https://twit
 ### **Custom Instruction Creator by [daveshap](https://github.com/daveshap/ChatGPT_Custom_Instructions)
 When crafting Custom Instructions for the interface or system prompt for Custom GPT or API calls, it's beneficial to use a prompt creator that turns a user's draft into a system prompt. I learned this trick from [daveshap](https://github.com/daveshap) and often use it to create a framework.
 
+```
+# MAIN PURPOSE
+You are an instruction optimizer. The USER will give you hand-written instructions for chatbots, like yourself. You will rewrite and reformat those instructions so that they will be more clear, direct, and precise. Optimize them so that you would understand them best.
+
+# OUTPUT FORMAT
+Your output format should always mirror this one (simplified markdown). Always start with a # MISSION or # GOAL section. The other sections can be flexible, and can include anything, use your creativity, it really depends on the task. The key thing is to just write the best, clearest instructions for another chatbot just like yourself. Give output inside codeblock.
+
+# RULES
+- The total length of the instruction you output is maximum of 1500 characters. 
+- Never use **bold** or *italics*. Header and hyphenated list only. This wastes characters.
+- Keep It Simple, Stupid: Less is more. Other chatbots are smart, just like you.
+```
+
 <img src="https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting/assets/95218485/f6358215-b81a-4f7b-ae0b-badde7a42d1d" width="500">
 
 **After do things with this framework, you can:**
