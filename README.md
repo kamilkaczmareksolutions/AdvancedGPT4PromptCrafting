@@ -58,7 +58,7 @@ This approach can improve the quality of the results. [Source link](https://twit
 
 [Source](https://twitter.com/voooooogel/status/1730726744314069190)
 
-### **Custom Instruction Creator by [daveshap](https://github.com/daveshap/ChatGPT_Custom_Instructions)
+### **Custom Instruction Creator by [daveshap](https://github.com/daveshap/ChatGPT_Custom_Instructions)**
 When crafting Custom Instructions for the interface or system prompt for Custom GPT or API calls, it's beneficial to use a prompt creator that turns a user's draft into a system prompt. I learned this trick from [daveshap](https://github.com/daveshap) and often use it to create a framework.
 
 ```
